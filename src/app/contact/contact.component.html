@@ -1,0 +1,15 @@
+<div class="card">
+    <div class="card-header">
+        <h5 class="card-title">{{item.name}}</h5>
+    </div>
+    <div class="card-body">
+        <p class="card-text">Email: {{item.email}}</p>
+        <p class="card-text">Phone: {{item.phone}}</p>
+        <p class="card-text">Address: {{item.address}}</p>
+        <p class="card-text">House Number: {{item.houseNumber}}</p>
+      <img class="img" src="{{item.image}}" alt="">
+      <button (click)="addNewItem(item.name)">הזמנה לאירוע</button>
+    <div class="card-footer">
+
+ 
+</div>

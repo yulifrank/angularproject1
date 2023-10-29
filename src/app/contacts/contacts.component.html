@@ -1,0 +1,16 @@
+<div class="main-container">
+    <div class="all" *ngFor="let con of contactsList">
+        <app-contact [item]="con" (newItemEvent)="addItem($event)"></app-contact>
+    </div>
+</div>
+
+
+<div class="list-container">
+    <div class="invite">invite</div>
+    <ul>
+      <li (mouseover)="deleteItem(name)"  *ngFor="let name of arrName">{{name}}</li>
+    </ul>
+  </div>
+
+
+

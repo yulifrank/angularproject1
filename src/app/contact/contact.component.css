@@ -1,0 +1,49 @@
+body{
+}
+.card {
+    width: 300px;
+    height: 400px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Card header */
+  .card-header {
+    margin-bottom: 10px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  /* Card body */
+  .card-body {
+    padding: 10px;
+    font-size: 15px;
+  }
+  
+  .card-text {
+    margin-bottom: 15px;
+  }
+  
+  /* Card footer */
+  .card-footer {
+    background-color: #f9f9f9;
+    padding: 10px;
+    text-align: center;
+ 
+  }
+  
+  .thorn-img {
+    width: 10px;
+    height: 10px;
+  }
+  .img{
+    width: 20%;
+  }
